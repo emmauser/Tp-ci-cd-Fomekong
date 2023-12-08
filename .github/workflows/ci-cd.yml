@@ -22,5 +22,5 @@ jobs:
       - name: Run tests with code coverage
           uses: coactions/setup-xvfb@v1
           with:
-            run: npm run test -- --no-watch --code-coverage
+            run: npm run test -- --no-watch --code-coverage
 
